@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incluindo Mídias</title>
+</head>
+<body>
+    <h1>Aprendendo a incluir Mídias -EX21</h1>
+
+    <h5>Imagem Local</h5>
+    <img src="/Imagens/Chaves.webp" alt="" width="1200px" height="750px">
+
+    <h5>Imagen da Internet</h5>
+    <img src="https://s2-gshow.glbimg.com/lNuDrlzTAamKyGfFjsNNIpTqIDc=/0x0:620x349/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2024/w/N/8e14HnSU6sH8skr0OV0g/quico-original1.webp" alt="" width="1200px" height="750px">
+
+    <h5>Audio Local</h5>
+    <audio controls>
+        <source src="/Musica/MANGOL CYPHER 6.mp3" type="audio/mp3">
+        abcd
+    </audio>
+
+    <h5>Video Local</h5>
+    <video constrols posters="" width= "600">
+        <source src="./Videos/jogandodeladinho.mp4" type="video/mp4">
+
+    </video>
+
+    <h2>Incorporando o IFRAME</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WZIGwN-5Ioo?si=5VkXnXrH0YfzdN6z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <H5>incorporando um mapa do Google</H5>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1800.3101914332813!2d-48.5091723!3d-25.5177041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94db9a5cb23a97af%3A0x28d9e2699c52d340!2sPrefeitura%20Municipal%20de%20Paranagu%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1740059748229!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h5> Incorporando o Spotify</h5>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2hupdDq30eIxa8ttDBS0GL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> 
+
+</body>
+</html>
